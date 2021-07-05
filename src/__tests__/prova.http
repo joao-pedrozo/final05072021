@@ -1,0 +1,12 @@
+###
+POST http://localhost:1234/classe/cadastrar
+Content-Type: application/json
+
+{
+    "atributo1": "Valor 1",
+    "atributo2": "Valor 2",
+    "atributo3": 1234,
+}
+
+###
+GET http://localhost:1234/pessoa/listar
